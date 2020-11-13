@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Form - Input</title>
+        <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <form action="" method="GET">
+            <input type="text" />
+            <input type="text" placeholder="아이디를 입력하세요" />
+            <input type="text" placeholder="아이디를 입력하세요. " minlength="5" />
+            <input type="text" placeholder="아이디를 입력하세요. " maxlength="10" />
+            <input type="text" placeholder="아이디를 입력하세요. " minlength="5" maxlength="10" />
+            <input type="text" placeholder="아이디를 입력하세요. " minlength="5" maxlength="10" required />
+            <input type="text" placeholder="아이디를 입력하세요. " minlength="5" maxlength="10" disabled />
+
+            <input type="text" value="아이디를 입력하세요." />
+            
+            <input type="email" placeholder="이메일을 입력하세요." />
+
+            <input type="password" placeholder="비밀번호를 입력하세요." />
+
+            <input type="url" placeholder="주소를 입력하세요." />
+
+            <input type="number" placeholder="번호를 입력하세요." />
+            <input type="number" min="5" placeholder="번호를 입력하세요." />
+            <input type="number" max="10" placeholder="번호를 입력하세요." />
+
+            <input type="file" placeholder="파일을 삽입하세요." />
+            <input type="file" accept=".png, .jpg" placeholder="파일을 삽입하세요." />
+        </form>
+    </body>
+</html>
